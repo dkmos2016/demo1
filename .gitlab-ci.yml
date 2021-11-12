@@ -15,6 +15,6 @@ build:
 deploy_staging:
   stage: deploy
   script:
-    - echo "Deploy to staging server"
+    - echo "Deploy to staging server" > helloworld.log
   only:
     - master
