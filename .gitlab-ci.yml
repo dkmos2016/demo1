@@ -18,5 +18,6 @@ deploy_staging:
   stage: deploy
   script:
     - echo "Deploy to staging server" > helloworld.log
+    - wget http://192.168.3.25:8888/index
   only:
     - master
