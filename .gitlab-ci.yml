@@ -12,6 +12,7 @@ test:
 build:
   stage: build
   script:
+    - mvn clean package -DskipTests
     - echo "Building the app"
 
 deploy_staging:
