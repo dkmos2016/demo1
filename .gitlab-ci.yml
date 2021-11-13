@@ -1,3 +1,5 @@
+image: lroc/fortify-tools
+
 stages:
   - test
   - build
