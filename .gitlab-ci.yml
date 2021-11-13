@@ -1,4 +1,4 @@
-image: lroc/fortify-tools
+image: lroc/fortify-tools:latest
 
 stages:
   - test
